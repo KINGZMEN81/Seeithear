@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SeeItHear — Things Worth Your Time</title>
+<meta name="fo-verify" content="50534af4-8385-42bd-976e-b0102b11a85e" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FAF7F1; --ink:#1A1816; --muted:#6B655C; --teal:#1C6B66; --coral:#D9592C; --rule:#D8D1C4;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#15130F; --ink:#F2EEE5; --muted:#A39B8C; --teal:#4FB8AF; --coral:#E8714A; --rule:#332F27;
+  }
+}
+:root[data-theme="dark"]{ --paper:#15130F; --ink:#F2EEE5; --muted:#A39B8C; --teal:#4FB8AF; --coral:#E8714A; --rule:#332F27; }
+html{scroll-padding-top:env(safe-area-inset-top,0px);}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',-apple-system,sans-serif;line-height:1.55;}
+.wrap{max-width:640px;margin:0 auto;padding:3rem 1.5rem 4rem;}
+
+.masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:1.6rem;margin-bottom:1.4rem;}
+.masthead h1{font-family:'Fraunces',serif;font-weight:600;font-size:3rem;margin:0;letter-spacing:-.01em;}
+.masthead p{font-family:'Fraunces',serif;font-style:italic;color:var(--muted);font-size:1.05rem;margin:.5rem 0 0;}
+
+.disclosure{font-size:.82rem;color:var(--muted);text-align:center;font-style:italic;
+  padding:1rem 0 2.2rem;border-bottom:1px solid var(--rule);margin-bottom:.4rem;}
+
+.entry{border-top:1px solid var(--rule);padding:1.6rem 0;}
+.entry:last-of-type{border-bottom:1px solid var(--rule);}
+.kicker{font-family:'Fraunces',serif;font-style:italic;color:var(--teal);font-size:.92rem;margin:0 0 .3rem;}
+.entry h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.5rem;margin:0 0 .5rem;}
+.entry p{margin:0 0 .8rem;color:var(--ink);font-size:.97rem;max-width:52ch;}
+.meta{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
+.price{font-size:.85rem;color:var(--muted);}
+a.visit{color:var(--teal);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px;
+  font-size:.95rem;font-weight:500;}
+a.visit:hover{text-decoration-color:var(--teal);}
+
+footer{margin-top:2.5rem;font-size:.78rem;color:var(--muted);text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <h1>SeeItHear</h1>
+    <p>Things worth your time — read first, click second.</p>
+  </div>
+
+  <div class="disclosure">
+    Some links below are affiliate links. If you buy through one, we may earn a commission at no cost to you — we only list what we'd recommend regardless.
+  </div>
+
+  <main>
+
+    <div class="entry">
+      <p class="kicker">For reaching an audience fast</p>
+      <h2>TikTok for Business</h2>
+      <p>Paid ad placement on TikTok. A fit if you're promoting a product or trying to grow reach quickly rather than organically.</p>
+      <div class="meta">
+        <span class="price">Ad budgets from $50</span>
+        <a class="visit" href="/go/tiktok-business" rel="sponsored noopener" target="_blank">Get started</a>
+      </div>
+    </div>
+
+    <div class="entry">
+      <p class="kicker">For anyone writing or ranking content</p>
+      <h2>Semrush</h2>
+      <p>An all-in-one SEO and content research toolkit, useful well beyond rankings — keyword gaps, competitor traffic, technical audits. <a class="visit" href="/semrush-review.html" style="font-size:.9em;">Read the full review</a></p>
+      <div class="meta">
+        <span class="price">Free trial available</span>
+        <a class="visit" href="/go/semrush" rel="sponsored noopener" target="_blank">Visit Semrush</a>
+      </div>
+    </div>
+
+    <div class="entry">
+      <p class="kicker">For building a site without a developer</p>
+      <h2>Webflow</h2>
+      <p>Design and host a real site visually, with the control of hand-written code underneath. A strong middle ground between a template builder and custom dev.</p>
+      <div class="meta">
+        <span class="price">Free plan to start</span>
+        <a class="visit" href="/go/webflow" rel="sponsored noopener" target="_blank">Visit Webflow</a>
+      </div>
+    </div>
+
+    <div class="entry">
+      <p class="kicker">For everyday privacy</p>
+      <h2>NordVPN</h2>
+      <p>Encrypts your connection and hides your IP — worth having on by default on public wifi, and useful for general browsing privacy.</p>
+      <div class="meta">
+        <span class="price">Discounted annual plans</span>
+        <a class="visit" href="/go/nordvpn" rel="sponsored noopener" target="_blank">Visit NordVPN</a>
+      </div>
+    </div>
+
+    <div class="entry">
+      <p class="kicker">For sites that need to stay fast</p>
+      <h2>Kinsta</h2>
+      <p>Managed WordPress hosting on Google Cloud's infrastructure. Pricier than budget hosts, but the speed and support difference shows.</p>
+      <div class="meta">
+        <span class="price">Plans from $35/mo</span>
+        <a class="visit" href="/go/kinsta" rel="sponsored noopener" target="_blank">Visit Kinsta</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>© 2026 SeeItHear. Prices and offers change — verify on the merchant's site before buying.</footer>
+</div>
+</body>
+          </html>
